@@ -1,0 +1,27 @@
+# CodeScope
+.env
+.env.local
+.env.docker
+!.env.example
+!.env.docker.example
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
